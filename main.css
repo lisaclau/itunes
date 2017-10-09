@@ -1,11 +1,23 @@
 @media (min-width: 576px) {}
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-h1{
-    font-family:'Oswald';
+
+h2.uppercase {
+    text-transform: uppercase; 
+}
+
+h3.uppercase {
+    text-transform: uppercase; 
+}
+
+p.uppercase {
+    text-transform: uppercase;
 }
 
 h2{
-    color:red;
+    font-family:'Oswald';
+    font-weight:'heavy';
+    color:#FC3FDF;
 }
