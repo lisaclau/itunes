@@ -1,0 +1,11 @@
+@media (min-width: 576px) {}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+h1{
+    font-family:'Oswald';
+}
+
+h2{
+    color:red;
+}
