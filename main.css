@@ -4,12 +4,27 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 
-h1 {
+h1{
     font-family: Oswald;
     font-weight: bold;
     font-size: 100px; 
     text-transform: uppercase; 
+    left: 0;
+    position: absolute;
+    text-align: center; 
+    width: 100%;
+    top: 30%;  
 }
+
+.pijl{
+    top: 90%;
+   
+    height: 50px;
+    width: 50px;
+    position: relative; 
+    align-items: center;
+}
+
 
 h2{
     font-family: Oswald;
@@ -25,25 +40,44 @@ h3{
     text-transform: uppercase; 
 }
 
-p{
-    font-family:'Muli';
+h4{
+    text-transform: uppercase;
+    font-family: Open Sans Condensed;
+    font-weight: bold;
 }
 
+p{
+    font-family: Muli;
+}
 
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+  
+}
 
 .hero-image {
 
-    background-image: url("hero.png");
+    background-image: url("hero.png") ;
 
     height: 100%;
     width: 100%;
-    margin: 0;
+    z-index: -1;
+    top: 0; bottom: 0; left: 0; right:0;
 
- 
-    background-position: center;
+    visibility: visible;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: absolute;
     display: flex;
+}
+
+.img-fluid-mini {
+    height: 150px;
+    width: 150px;
 }
 
