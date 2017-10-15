@@ -4,50 +4,54 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 
+
 h1{
     font-family: Oswald;
-    font-weight: bold;
     font-size: 100px; 
-    text-transform: uppercase; 
-    left: 0;
+
     position: absolute;
-    text-align: center; 
     width: 100%;
     top: 30%;  
+    color: white; 
 }
 
+
 .pijl{
-    top: 90%;
+    top: 80%;
    
     height: 50px;
     width: 50px;
-    position: relative; 
-    align-items: center;
+    position: absolute; 
+
 }
 
 
 h2{
     font-family: Oswald;
-    font-weight: bold;
     color:#FC3FDF;
-    text-transform: uppercase; 
 }
 
 
 h3{
     font-family: Oswald;
-    font-weight:bold;
-    text-transform: uppercase; 
+    padding-bottom: 30px; 
 }
 
 h4{
-    text-transform: uppercase;
     font-family: Open Sans Condensed;
-    font-weight: bold;
+    color:#FC3FDF;
+    text-transform: underline #FC3FDF; 
+    margin-right: 50px;
+    position: relative;
 }
 
 p{
     font-family: Muli;
+}
+
+.detail {
+    font-size: 12px; 
+    margin-top: 10px;
 }
 
 html, body {
@@ -63,8 +67,7 @@ html, body {
 
     background-image: url("hero.png") ;
 
-    height: 100%;
-    width: 100%;
+
     z-index: -1;
     top: 0; bottom: 0; left: 0; right:0;
 
@@ -77,7 +80,43 @@ html, body {
 }
 
 .img-fluid-mini {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 
+.fail {
+    height: 120px;
+    width: 120px;
+}
+
+.img-fluid {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #FC3FDF;
+    color: white;
+    vertical-align: middle;
+}
+
+
+.play {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.nav-tabs {
+    margin-right: 50px;
+}
+
+.nav {
+    text-decoration: none; 
+}
+
+      
